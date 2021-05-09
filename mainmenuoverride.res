@@ -1216,6 +1216,36 @@
 		"defaultBgColor_override" 	"Transparent"
 		"armedBgColor_override" 	"25 25 25 148"
 	}
+	
+	"HtmlMotdToggle"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"HtmlMotdToggle"
+		"xpos"			"30"
+		"ypos"			"362"
+		"zpos"			"11"
+		"wide"			"260"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"AllCaps"		"1"
+		"labeltext"		"HTML MOTD TOGGLE"
+		"command"		"engine incrementvar cl_disablehtmlmotd 0 1 1"
+		"font"			"HudFontSmallishBold"
+		"textAlignment"	"west"
+		"textinsetx"	"25"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border_default"	""
+		"border_armed"		"MainMenuTabs"
+
+		"defaultFgColor_override" 	"TanLight"
+		"armedFgColor_override" 	"ColorCyan"
+
+		"defaultBgColor_override" 	"Transparent"
+		"armedBgColor_override" 	"25 25 25 148"
+	}
 
 	"AchievementsButton"
 	{
